@@ -1,0 +1,20 @@
+{
+  "name": "@dvpnt/webpack-chunks-stats-plugin",
+  "version": "0.0.1",
+  "description": "webpack chunks stats plugin",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext js --cache ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvpnt/webpack-chunks-stats-plugin.git"
+  },
+  "author": "dvpnt",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-dvpnt": "4.0.8",
+    "eslint-plugin-import": "2.22.0"
+  }
+}

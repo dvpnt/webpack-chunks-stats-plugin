@@ -1,0 +1,7 @@
+*.tgz
+.eslintcache
+.eslintignore
+.eslintrc.json
+.gitignore
+.npmignore
+.travis.yml
