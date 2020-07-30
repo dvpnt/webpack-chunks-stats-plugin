@@ -8,8 +8,8 @@ class ChunksStatsPlugin {
 			const stats = compiler.getStats().toJson({chunks: true});
 			const mappedStats = {};
 
-			stats.chunks.forEach(({id, hash}) => {
-				mappedStats[id] = {hash};
+			stats.chunks.forEach(({names, hash}) => {
+				mappedStats[names[0]] = {hash};
 			});
 
 			const statsStr = JSON.stringify(mappedStats, null, 2);
